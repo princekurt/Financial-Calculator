@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FIRE Headquarters</title>
+
+<!-- Bootstrap -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<!-- Style Sheets -->
+<link href="../css/styles.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/d501bb4be2.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="mainContent" class="">
+
+<!-- TOP NAV -->
+<nav id="header" class="navbar-default">
+  <div class="top-container container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand addborder" id="logo" href="index.html">FIRE Calc</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    	<div class="collapse navbar-collapse" id="defaultNavbar1">
+		  <ul id="nav-menu" class="nav navbar-nav">
+			  <li></li>
+		  </ul>
+
+		  <ul id="nav-menu" class="nav navbar-nav navbar-right">
+
+			<li><a href="index.html">Home</a></li>
+			<li class= "active"><a href="pages/calculators.html">Calculators</a></li>
+			<li><a href="#">Information</a></li>
+			<li><a href="#">Donate</a></li>
+		  </ul>
+      
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- NAV SIDE -->
+	<aside class="nav-side-menu">
+		<div class="brand">Calculators</div>
+		<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+		<div class="menu-list">
+			<ul id="menu-content" class="menu-content collapse out">
+				<li class="active">
+					<a href="pages/calculators.html">
+						<i class="fa fa-dashboard fa-lg"></i> Overview
+					</a>
+				</li>
+				<li data-toggle="collapse" data-target="#products" class="collapsed">
+					<a href="#"><i class="fa fa-pencil-square-o fa-lg"></i> Basics <span class="arrow"></span></a>
+				</li>
+				<ul class="sub-menu collapse" id="products">
+					<li><a href="#">Money Needed</a></li>
+					<li><a href="#">Time Until Retirement</a></li>
+				</ul>
+				<li data-toggle="collapse" data-target="#service" class="collapsed">
+					<a href="#"><i class="fa fa-globe fa-lg"></i> Retirement <span class="arrow"></span></a>
+				</li>
+				<ul class="sub-menu collapse" id="service">
+					<li><a href="#">Withdrawl Rate</a></li>
+					<li><a href="#">Historical Model</a></li>
+					<li><a href="#">Pessimistic Model</a></li>
+					<li><a href="#">Optimistic Model</a></li>
+					<li><a href="#">Multiple Models</a></li>
+				</ul>
+
+
+			  <li data-toggle="collapse" data-target="#new" class="collapsed">
+					<a href="#"><i class="fa fa-money fa-lg"></i> Spending <span class="arrow"></span></a>
+				</li>
+				<ul class="sub-menu collapse" id="new">
+					<li>New New 1</li>
+					<li>New New 2</li>
+					<li>New New 3</li>
+				</ul>
+				
+				<li data-toggle="collapse" data-target="#new" class="collapsed">
+					<a href="#"><i class="fa fa-line-chart fa-lg"></i> Investments <span class="arrow"></span></a>
+				</li>
+				<ul class="sub-menu collapse" id="new">
+					<li>New New 1</li>
+					<li>New New 2</li>
+					<li>New New 3</li>
+				</ul>
+				
+			  <li><a href="#">Profile</a></li>
+				<li><a href="#">Users</a></li>
+			</ul>
+		</div>
+	</aside>
+
+
+<!-- Main Page -->
+<div id ="wrapper">
+	<div id ="title" class="container-fluid">
+    		<div class="col-md-6 col-md-offset-3">
+    		  <h1 class="text-center">FIRE Basic Calculator</h1>
+  		</div>
+  		<hr>
+	</div>
+	<div class="container">
+	  <div class="row large-row text-center">
+		<iframe src="https://jscalc.io/embed/lraI6phCNvxMZVaX" width="100%" height="100%" frameborder="1" marginheight="0" marginwidth="0" style="border: 3px solid rgba(0,0,0,0.12)"></iframe>
+	  </div>
+	  <hr>
+	  
+	  
+	</div>
+</div>
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/interactive.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>
